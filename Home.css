@@ -1,0 +1,240 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* The styling for the body*/
+body, html{
+    width: 100%;
+    height: auto;
+    background-color: hsl(216, 18%, 16%);
+}
+
+/* The styling for the nav bar container*/
+.navBar{
+    border-bottom: 1px solid whitesmoke;
+    display: flex;
+    height: 80px;
+    background-color: inherit;
+    color: whitesmoke;
+    font-family: "calibri";
+}
+
+/* The styling for the header in the nav bar container*/
+.navBar > h1{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+/* The styling for the image in the nav bar container*/
+.navBar > img{
+    position: absolute;
+    top: 10px;
+    left: 190px;
+    height: 50px;
+    width: 100px;
+}
+
+/* The styling for the navigation containing the links*/
+nav{
+position: absolute;
+top: 25px;
+right: 50px;
+}
+
+/* The styling for the navigation links*/
+nav > a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: calibri;
+    font-size: 20px;
+    font-weight: 600;
+    transition-property: all;
+}
+
+/* The styling for the navigation link @ active state*/
+a:hover{
+
+    font-size: 22px;
+    color: hsl(183, 100%, 35%);
+}
+
+/* The styling for the Page Theme*/
+.pageTheme{
+    margin-left: 200px;
+    margin-top: 130px;
+    color:whitesmoke;
+    font-family: calibri;
+    font-size: 40px;
+    
+}
+/* The styling for the Page Theme SVG*/
+.pageTheme > svg{
+   position: absolute;
+   top: 160px;
+   right: 50px;
+}
+
+/* The styling for the bottom arrow @ the end of the paragraph*/
+.arrow{
+    position: absolute;
+    top: 260px;
+    left: 115px;
+}
+/* The styling for the Hire Me button*/
+.Hireme{
+    background-color: hsl(183, 100%, 35%);
+    height: 35px;
+    width: 100px;
+    border: 0px solid transparent;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-weight: 800;
+    text-shadow: 1px 2px rgb(48, 45, 45);
+    cursor: pointer;
+}
+
+/* The styling for hire me hover*/
+.Hireme:hover{
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+}
+
+/* The styling for the download CV button*/
+.Cv{
+    padding-left: 5px;
+    background-color:hsl(217, 10%, 25%) ;
+    height: 35px;
+    width: 150px;
+    border: 0px solid transparent;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-weight: 800;
+    text-shadow: 1px 2px rgb(48, 45, 45);
+    cursor: pointer;
+    
+}
+
+/* The styling for the DOWNLOAD CV Svg*/
+.Cv > svg{
+    float: right;
+    margin-right:15px ;
+}
+
+/* The styling for the Arrow Svg*/
+main > svg{
+    position: absolute;
+    top: 750px;
+    left: 500px;
+}
+
+/* The styling for the download hover*/
+.Cv:hover{
+     background-color: transparent;
+    border: 2px solid whitesmoke;
+}
+
+/* The styling for the About me write up*/
+.aboutMe{
+
+    margin-top: 550px;
+    margin-left: 100px;
+
+}
+
+.musicsvg{
+    position: relative;
+    bottom: 150px;
+    right: 400px;
+}
+
+.aboutMe > svg{
+float: right;
+margin-right: 50px;
+margin-bottom: 200px;
+}
+
+.arrowTwo{
+    position: relative;
+    top: 20px;
+    right: 150px;
+}
+
+.lightbulb{
+    position: relative;
+    bottom: 10px;
+    left: 60px;
+}
+
+/* The styling for the About me Theme*/
+.merge{
+    display: flex;
+
+}
+/* The styling for the About me  header write up*/
+.merge > h1{
+    font-size: 80px;
+    color: whitesmoke;
+    font-family: calibri;
+    padding-left: 5px;
+}
+
+/* The styling for the About me paragraph write up*/
+p{
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: calibri;
+
+}
+
+/* The styling for the third container*/
+.projectPage{
+    width: 1340px;
+    height: 1000px;
+    background-image: url("Projects\ Page.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    margin-top: 400px;
+}
+
+
+/* The styling for the Footer*/
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin-top: 0px;
+    border: 0px solid whitesmoke;
+    color: whitesmoke;
+    font-family: calibri;
+    font-size: 20px;
+    border-top: 1px solid whitesmoke;
+
+
+}
+
+/* The styling for the divsion in the footer section*/
+.footer > div{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+/* The styling for the various social media */
+.social{
+ margin-left: 540px;
+}
+
+/* The styling for the footer svg*/
+.social > svg{
+    background-color: rgba(245, 245, 245, 0.082);
+    border: 10px solid rgba(245, 245, 245, 0.082);
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+/* The styling for the paragraph*/
+footer > p {
+    padding-top: 50px;
+    padding-left: 950px;
+}

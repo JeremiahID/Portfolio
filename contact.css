@@ -1,0 +1,233 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* The styling for the body*/
+body, html{
+    width: 100%;
+    height: auto;
+    background-color: hsl(216, 18%, 16%);
+}
+
+/* The styling for the nav bar container*/
+.navBar{
+    border-bottom: 1px solid whitesmoke;
+    display: flex;
+    height: 80px;
+    background-color: inherit;
+    color: whitesmoke;
+    font-family: "calibri";
+}
+
+/* The styling for the header in the nav bar container*/
+.navBar > h1{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+/* The styling for the image in the nav bar container*/
+.navBar > img{
+    position: absolute;
+    top: 10px;
+    left: 190px;
+    height: 50px;
+    width: 100px;
+}
+
+/* The styling for the navigation containing the links*/
+nav{
+position: absolute;
+top: 25px;
+right: 50px;
+}
+
+/* The styling for the navigation links*/
+nav > a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: calibri;
+    font-size: 20px;
+    font-weight: 600;
+    transition-property: all;
+}
+
+/* The styling for the navigation link @ active state*/
+a:hover{
+    
+    font-size: 22px;
+    color: hsl(183, 100%, 35%);
+}
+
+/* The styling for the Project Page*/
+.projectPage{
+    width: 1340px;
+    height: 1000px;
+    background-image: url("Projects\ Page.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+
+}
+
+/* The styling for the write up in the second contianer*/
+.writeup{
+    float: left;
+    margin-top: 100px;
+
+
+}
+
+.writeup > h1{
+    color: whitesmoke;
+    font-size: 3.5em;
+    font-family: arial;
+    margin-left:200px;
+}
+
+.writeup > svg{
+    margin-top:30px;
+    margin-left: 200px;
+}
+
+
+
+/* The styling for the Form*/
+form{
+    float: right;
+    margin-top: 100px;
+    color: whitesmoke;
+    font-size:1rem;
+    font-family: arial;
+    font-weight: 800;
+    margin-right: 100px;
+}
+
+/* The styling for the Form Inputs*/
+input{
+    background-color: rgba(82, 77, 77, 0.356);
+    border: 0px solid transparent;
+    border-radius: 10px;
+    height: 40px;
+    width: 190px;
+    color: whitesmoke;
+    font-size:0.9em;
+    font-family: arial;
+    font-weight: 700;
+    padding-left: 10px;
+
+}
+
+/* The styling for the input containers*/
+.input{
+    display: flex;
+
+}
+
+/* The styling for the input container one*/
+.one > input{
+    margin-top: 8px;
+}
+
+
+/* The styling for the input container two */
+.two > input{
+    margin-top: 8px;
+
+}
+
+/* The styling for the input container two */
+.two{
+    margin-left:30px ;
+
+}
+/* The styling for the textarea container*/
+.textarea{
+    margin-top: 30px;
+    
+}
+
+/* The styling for the Textarea*/
+textarea{
+    background-color: rgba(82, 77, 77, 0.356);
+    border: 0px solid transparent;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size:1.1rem;
+    font-family:calibri;
+    font-weight: 800;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    resize: none;
+    caret-shape:block;
+    caret-color: hsl(183, 100%, 35%);
+    backdrop-filter: blur(130px);
+}
+
+/* The styling for the button send message*/
+.send{
+    margin-top: 10px;
+    padding-left: 20px;
+    background-color: hsl(183, 100%, 35%);
+    height: 35px;
+    width: 200px;
+    border: 0px solid transparent;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-weight: 800;
+    text-shadow: 1px 2px rgb(48, 45, 45);
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.send > svg{
+    float: right;
+    margin-right:30px ;
+
+}
+
+.send:hover{
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+}
+
+/* The styling for the Footer*/
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin-top: 600px;
+    border: 0px solid whitesmoke;
+    color: whitesmoke;
+    font-family: calibri;
+    font-size: 20px;
+    border-top: 1px solid whitesmoke;
+
+
+}
+
+/* The styling for the divsion in the footer section*/
+.footer > div{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+/* The styling for the various social media */
+.social{
+ margin-left: 540px;
+}
+
+/* The styling for the footer svg*/
+.social > svg{
+    background-color: rgba(245, 245, 245, 0.082);
+    border: 10px solid rgba(245, 245, 245, 0.082);
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+/* The styling for the paragraph*/
+footer > p {
+    padding-top: 50px;
+    padding-left: 950px;
+}
